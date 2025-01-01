@@ -1,0 +1,75 @@
+.navbar-brand strong {
+    font-family: 'Playfair Display', serif; /* Police élégante */
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    background: linear-gradient(80deg, #b6b47a, #e4ab00); /* Dégradé doré */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+
+.navbar-brand strong:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.hero .title {
+    color: #FFD700;
+}
+
+.hero .subtitle {
+    color: #FFA500;
+}
+
+.hero {
+    background-image: url('images/bakground.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+
+.card {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-content .title {
+    color: #333;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-content .subtitle {
+    color: #666;
+    font-size: 1rem;
+    padding-top: 15px;
+    margin-bottom: 1rem;
+}
+
+
+.footer {
+    background-color: #f5f5f5;
+    padding: 1.5rem 0;
+}
+
+.footer p {
+    color: #333;
+    font-size: 0.875rem;
+}
